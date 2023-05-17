@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+    max-height: 100%;
+}
+
+#accessibility{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    right: 1vw;
+    bottom: 1vw;
+    height: 150px;
+
+}
+
+.itens_accessibility{
+    cursor: pointer;
+    width: 100%;
+}
+
+.itens{
+    display: none;
+}
+
+#hamburger{
+    margin-top: auto;
+}
