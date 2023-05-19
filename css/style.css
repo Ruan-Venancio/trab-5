@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body, html{
@@ -11,25 +12,41 @@ body, html{
 }
 
 #accessibility{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     position: fixed;
-    right: 1vw;
+    right: 2vw;
     bottom: 1vw;
-    height: 150px;
+    height: 160px;
+    width: 2.35%;
+}
 
+#accessibility-relative{
+    position: relative;
+    height: 100%;
 }
 
 .itens_accessibility{
+    background-color: gray;
     cursor: pointer;
+    width: 100%;
+    position: absolute;
+}
+
+.itens_accessibility img{
     width: 100%;
 }
 
-.itens{
-    display: none;
+#hamburger{
+    bottom: 0;
 }
 
-#hamburger{
-    margin-top: auto;
+#move3{
+    bottom: 100%;
+}
+
+#move2{
+    bottom: 66.6%;
+}
+
+#move1{
+    bottom: 33.3%;
 }
