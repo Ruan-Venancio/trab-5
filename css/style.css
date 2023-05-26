@@ -60,6 +60,7 @@ header{
     position: absolute;
 }
 
-#opacity{
+.opacity{
     opacity: 0;
+    transition: opacity 800ms;
 }
